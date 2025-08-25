@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/batterydashboard/static/css/main.ccc7f63d.css",
+    "main.js": "/batterydashboard/static/js/main.3b991058.js",
+    "static/js/453.5b0a38b0.chunk.js": "/batterydashboard/static/js/453.5b0a38b0.chunk.js",
+    "index.html": "/batterydashboard/index.html",
+    "main.ccc7f63d.css.map": "/batterydashboard/static/css/main.ccc7f63d.css.map",
+    "main.3b991058.js.map": "/batterydashboard/static/js/main.3b991058.js.map",
+    "453.5b0a38b0.chunk.js.map": "/batterydashboard/static/js/453.5b0a38b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ccc7f63d.css",
+    "static/js/main.3b991058.js"
+  ]
+}
