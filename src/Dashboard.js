@@ -4,6 +4,7 @@ import { MdOutlineVerifiedUser, MdVerified } from "react-icons/md";
 import GaugeChart from 'react-gauge-chart';
 import './Dashboard.css';
 import ImpactPieChart from './ImpactPieChart';
+import CompositionPieChart from './CompositionPieChart';
 
 function Dashboard() {
     return (
@@ -21,7 +22,7 @@ function Dashboard() {
                         </div>
                     </div>
                     <div className="product-image-container">
-                        <img src="batteryjpeg.jpeg" alt="Steel beam" />
+                        <img src="https://tracecircle.com/wp-content/uploads/2025/08/batteryjpeg.jpeg.jpg" alt="Steel beam" />
                     </div>
                     <p className="card-description">
                         This Digital Product Passport(DPP) provides comprehensive, verifiable information about the battery's entire lifecycle, ensuring transparency and trust.
@@ -113,35 +114,10 @@ function Dashboard() {
                 </div>
                 
                 <div className="card">
-                    <div className="card-header1">
+                    <div className="card-header">
                         <h2>Composition (Chemical Analysis)</h2>
                     </div>
-                    <div className="two-column-grid">
-                        <div>
-                            <p>Cathode Chemistry</p>
-                            <p className="bold-text">NMC 811 (Nickel Manganese Cobalt Oxide)</p>
-                            <p>Anode Material</p>
-                            <p className="bold-text">Graphite</p>
-                            <p>Electrolyte Type</p>
-                            <p className="bold-text">Lithium Hexafluorophosphate (LiPF6)</p>
-                            <p>Separator Material</p>
-                            <p className="bold-text">Polypropylene (PP)</p>
-                            <p>Lithium (Li)</p>
-                            <p className="bold-text">7.5%</p>
-                        </div>
-                        <div>
-                            <p>Nickel (Ni)</p>
-                            <p className="bold-text">45%</p>
-                            <p>Manganese(Mn)</p>
-                            <p className="bold-text">10%</p>
-                            <p>Cobalt (Co)</p>
-                            <p className="bold-text">5%</p>
-                            <p>Aluminum (Al)</p>
-                            <p className="bold-text">1%</p>
-                            <p>Copper (Cu)</p>
-                            <p className="bold-text">12%</p>
-                        </div>
-                    </div>
+                    <CompositionPieChart></CompositionPieChart>
                 </div>
                 
                 <div className="card">
@@ -166,53 +142,9 @@ function Dashboard() {
                     </div>
                 </div>
                 
-                <div className="card">
-                    <div className="card-header1">
-                        <h2>Certifications & Compliance</h2>
-                    </div>
-                    <div className="two-column-grid">
-                        <div>
-                            <p>ISO 9001</p>
-                            <p className="bold-text">Certified (Quality Management)</p>
-                            <p>ISO 14001</p>
-                            <p className="bold-text">Certified(Environmental Management)</p>
-                            <p>UN 38.3</p>
-                            <p className="bold-text">Certified for Safe Transport of Lithium Batteries</p>
-                        </div>
-                        <div>
-                            <p>IEC 62133</p>
-                            <p className="bold-text">Compliance with International Safety Standards</p>
-                            <p>RoHS</p>
-                            <p className="bold-text">Compliant (Restriction of Hazardous Substances)</p>
-                            <p>REACH</p>
-                            <p className="bold-text">Compliant (EU Chemical Safety Regulation)</p>
-                        </div>
-                    </div>
-                </div>
                 
-                <div className="card">
-                    <div className="card-header1">
-                        <h2>Warranty & Support</h2>
-                    </div>
-                    <div className="two-column-grid">
-                        <div>
-                            <p>Battery Pack</p>
-                            <p className="bold-text">8 Years Warranty</p>
-                            <p>Cell Performance</p>
-                            <p className="bold-text">5 Years Warranty</p>
-                            <p>Manufacturing Defects</p>
-                            <p className="bold-text">Covered under Standard Warranty</p>
-                        </div>
-                        <div>
-                            <p>On-Site Diagnostic Support</p>
-                            <p className="bold-text">Available on Request</p>
-                            <p>Installation Assistance</p>
-                            <p className="bold-text">Provided with Purchase</p>
-                            <p>Extended Warranty Option</p>
-                            <p className="bold-text">Upto 10 years(Optional)</p>
-                        </div>
-                    </div>
-                </div>
+                
+                
             </div>
         </div>
     );
